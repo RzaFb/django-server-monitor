@@ -110,15 +110,6 @@ monitor_project/
 
 ---
 
-## Contributing
-Contributions are welcome!
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-- Fork the repo and create your branch (`git checkout -b feature/your-feature`)
-- Commit your changes (`git commit -am 'Add new feature'`)
-- Push to the branch (`git push origin feature/your-feature`)
-- Open a Pull Request
-
----
 
 ## Testing & CI
 - Run tests locally:
@@ -126,23 +117,6 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
   python manage.py test
   ```
 - Automated tests and linting can be set up via GitHub Actions or other CI tools.
-
----
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgements
-- [Django](https://www.djangoproject.com/)
-- [Celery](https://docs.celeryq.dev/en/stable/)
-- Open source contributors
-
----
-
-## Contact
-For questions, suggestions, or support, please open an issue or contact [rzafrhb@gmail.com](mailto:rzafrhb@gmail.com).
 
 ---
 
