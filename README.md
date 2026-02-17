@@ -46,15 +46,7 @@ This project is ideal for small teams, IT administrators, or developers who need
 
 
 
-## Installation
-
-   celery -A monitor_project worker --loglevel=info
-## Testing & CI
-- Run tests locally:
-   ```bash
-   python manage.py test
-   ```
-- Automated tests and linting can be set up via GitHub Actions or other CI tools.
+3. **Start Celery Beat (for scheduled tasks)**
 
 ---
 
@@ -65,13 +57,6 @@ This project is ideal for small teams, IT administrators, or developers who need
 
 ---
 
-   ```
-3. **Start Celery Beat (for scheduled tasks)**
-   ```bash
-   celery -A monitor_project beat --loglevel=info
-   ```
-4. **Access Admin Interface**
-   - Visit `http://localhost:8000/admin/` and log in with your superuser credentials.
 
 ---
 
